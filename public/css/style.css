@@ -6,7 +6,18 @@ Gris oscuro: #666;
 Gris claro: #ebebeb;
 Verde: #39b54a;
 */
+*{margin: 0px; padding: 0px; box-sizing: border-box;}
 body{   
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
 }
+header{
+    background-color:#EAC926;
+    width: 100vw;
+}
+h3{
+    font-size: 24px;
+}
+.precio{font-size: 18px;}
+.descuento{font-size: 16px;}
+.descripcion{font-size: 16px;}
