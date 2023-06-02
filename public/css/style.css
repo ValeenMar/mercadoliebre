@@ -32,6 +32,7 @@ header nav {
 
 main {
     width: 90vw;
+    margin: 0 auto;
 }
 
 main section article {
@@ -77,7 +78,9 @@ h3 {
 .info-article i {
     color: #39b54a
 }
-
+.producto{
+    
+}
 .precio {
     font-size: 18px;
     width: 30%;
@@ -86,6 +89,7 @@ h3 {
 .descuento {
     font-size: 16px;
     width: 70%;
+    color: #39b54a;
 }
 
 .descripcion {
@@ -107,6 +111,10 @@ footer i {
     header nav {
         display: block;
     }
+    main section article{
+        width: 45%;
+    }
+
 }
 
 @media(min-width: 769px) {}
